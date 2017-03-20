@@ -376,9 +376,15 @@ aside {
 }
 
 .info ul {
-    list-style: decimal;
+    counter-reset: li;
+    list-style: none;
     padding: 10px 0px 15px 60px;
     font-size: 1.6em;
+}
+
+.info li:before {
+    counter-increment: li;
+    content: counter(li) ". ";
 }
 
 /* END OF ADMISSION */
