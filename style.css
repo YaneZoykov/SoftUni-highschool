@@ -154,11 +154,12 @@ main {
 
 
 .page-introduction {
+    font-family: 'Roboto Slab', serif;
     background: #234364;
     color: white;
     font-size: 3em;
-    font-family: 'Roboto Slab', serif;
     padding: .4em 0 .4em 1em;
+    box-shadow: 0 3px 15px black;
 }
 
 /* END OF MAIN CONTENT */
@@ -351,7 +352,7 @@ aside {
 }
 
 .info {
-    border: 10px solid #234364;
+    box-shadow: 0 0 5px  black;
     margin-top: 3em;
 }
 
@@ -361,11 +362,11 @@ aside {
 
 .info h2 {
     font-size: 2em;
-    border-bottom: 10px solid #234364;
     background: rgba(35, 67, 100, 0.16);
     color: #234364;
     font-weight: bold;
     text-shadow: 1px 1px black;
+    box-shadow: 0 0 5px black;
     padding: .4em;
 }
 
