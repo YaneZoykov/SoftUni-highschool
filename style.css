@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -261,6 +261,7 @@ aside {
 
 
 .events aside li {
+    cursor: pointer;
     font: initial;
     list-style: none;
     background: #234364;
@@ -272,7 +273,6 @@ aside {
 }
 
 .events aside li:hover {
-    cursor: pointer;
     background: rgba(25, 36, 59, 0.44);
 }
 
